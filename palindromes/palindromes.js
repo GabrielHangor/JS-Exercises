@@ -11,7 +11,7 @@ const palindromes = function (string) {
     .join('');
 
   console.log(ourArray, reversedArray);
-  return ourArray === reversedArray ? true : false;
+  return ourArray === reversedArray;
 };
 
 palindromes("A car, a man, a maraca.");
